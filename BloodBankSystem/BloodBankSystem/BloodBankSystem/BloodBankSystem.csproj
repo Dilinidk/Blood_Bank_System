@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30FAF229-7FCD-4915-9191-22F218BC2EB7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BloodBankSystem</RootNamespace>
+    <AssemblyName>BloodBankSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewDonor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewDonor.Designer.cs">
+      <DependentUpon>AddNewDonor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllDonorDEtails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllDonorDEtails.Designer.cs">
+      <DependentUpon>AllDonorDEtails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashForm.Designer.cs">
+      <DependentUpon>DashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchBloodDonorDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchBloodDonorDetails.Designer.cs">
+      <DependentUpon>SearchBloodDonorDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDonorByBlood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDonorByBlood.Designer.cs">
+      <DependentUpon>SearchDonorByBlood.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddNewDonor.resx">
+      <DependentUpon>AddNewDonor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllDonorDEtails.resx">
+      <DependentUpon>AllDonorDEtails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashForm.resx">
+      <DependentUpon>DashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SearchBloodDonorDetails.resx">
+      <DependentUpon>SearchBloodDonorDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDonorByBlood.resx">
+      <DependentUpon>SearchDonorByBlood.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-blood-donate-and-heart-rate-on-white-background-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-world-blood-donor-day-background-image_1074492.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_processing20191128-24941-zbq3ty.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archicons8-name-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archpasswrod1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-blood-donate-and-heart-rate-on-white-background-free-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archBlood group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archAddress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archInc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archDec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archDetails.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archClose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_592221846_7FKq0dvmqk6UAp5OciKaNxLB19SH0xV9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archsave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archUpdate details.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archClose1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archExit application.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_592221846_7FKq0dvmqk6UAp5OciKaNxLB19SH0xV91.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archsearch1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archExit application1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archUpdate details%281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

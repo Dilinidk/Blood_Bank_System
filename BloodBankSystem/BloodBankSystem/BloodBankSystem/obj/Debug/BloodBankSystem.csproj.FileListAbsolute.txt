@@ -1,0 +1,15 @@
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\bin\Debug\BloodBankSystem.exe.config
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\bin\Debug\BloodBankSystem.exe
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\bin\Debug\BloodBankSystem.pdb
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.csproj.AssemblyReference.cache
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.Login.resources
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.Properties.Resources.resources
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.csproj.GenerateResource.cache
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.csproj.CoreCompileInputs.cache
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.exe
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.pdb
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.DashForm.resources
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.AddNewDonor.resources
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.AllDonorDEtails.resources
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.SearchBloodDonorDetails.resources
+C:\Users\malki\OneDrive\Desktop\BloodBankSystem\BloodBankSystem\obj\Debug\BloodBankSystem.SearchDonorByBlood.resources
